@@ -1,0 +1,35 @@
+.backgroundwrapper {
+  background-color: #001084;
+  width: 100%;
+  height: auto;
+}
+.empowerethiopia h1 {
+  /* font-size: 45px; */
+  font-weight: 700;
+}
+.friendimage img {
+  width: 490px;
+  height: auto;
+}
+.friendwrapper {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 950px) {
+  .friendwrapper {
+    display: block;
+  }
+  .friendimage img {
+    width: 80%;
+    height: auto;
+  }
+  .empowerethiopia h1 {
+    font-size: 20px;
+    /* margin-left: 30px; */
+  }
+}
+@media (min-width: 950px) {
+  .friendwrapper {
+    display: flex;
+  }
+}

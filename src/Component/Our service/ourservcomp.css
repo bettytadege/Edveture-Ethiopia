@@ -1,0 +1,25 @@
+.service img {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  /* margin-top: -35px; */
+}
+.service {
+  width: 300px;
+  height: 300px;
+  /* border: 1px solid; */
+  background-color: black;
+}
+.par {
+  font-size: 13px;
+}
+.spans {
+  color: #ff480f;
+  margin-left: -40px;
+}
+@media (max-width: 840px) {
+  .service h1,
+  p {
+    text-align: center;
+  }
+}

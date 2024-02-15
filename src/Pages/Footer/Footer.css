@@ -1,0 +1,34 @@
+.footer {
+  background-color: #001084;
+  height: 300px;
+}
+.logo img {
+  width: 180px;
+  /* margin: 40px; */
+  position: relative;
+  top: 60px;
+}
+
+.list ul {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 200px;
+}
+
+.list ul li {
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+.footerlast {
+  display: flex;
+  justify-content: space-around;
+}
+.policy ul {
+  display: flex;
+  justify-content: space-between;
+}
+.policy ul li {
+  list-style-type: none;
+  padding-right: 20px;
+}

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.links ul li a {
+  text-decoration: none;
+  color: black;
+  padding-left: 34px;
+  font-weight: 400;
+  font-size: 17px;
+}
+.links ul {
+  position: relative;
+  top: 22px;
+}
+.navbar-brand img {
+  width: 170px;
+  height: 48px;
+  position: absolute;
+  /* top: 60px; */
+  /* left: 75px; */
+}
+
+.links ul li a:hover {
+  border: 1px solid #001084;
+  background-color: #001084;
+  /* transform: scale(1.03); */
+
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}

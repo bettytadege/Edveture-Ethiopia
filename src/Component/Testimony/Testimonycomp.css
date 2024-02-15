@@ -1,0 +1,25 @@
+.test {
+  width: 400px;
+  height: 220px;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  top: -370px;
+  left: 100px;
+}
+.img img {
+  width: 60px;
+  border-radius: 50%;
+  position: relative;
+  top: -20px;
+  left: -15px;
+}
+.para p {
+  color: #6a6a6a;
+}
+.name p {
+  color: black;
+}
+@media (min-width: 989) {
+}

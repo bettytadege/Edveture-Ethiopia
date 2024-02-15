@@ -1,0 +1,51 @@
+.tabless input[type="text"],
+.tabless input[type="email"],
+.tabless input[type="number"] {
+  border: none;
+  border-bottom: 1px solid #8a898a;
+  width: 250px;
+}
+.tabless select {
+  border: none;
+  border-bottom: 1px solid #8a898a;
+  width: 250px;
+}
+.tabless tr td {
+  color: #8a898a;
+}
+
+.btn button {
+  background-color: #ff480f;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 25px;
+  width: 200px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.study {
+  background-color: #001084;
+  height: 150px;
+}
+.sec p {
+  padding-top: 10px;
+  margin-left: 10px;
+}
+/* #select3 select {
+  border-bottom: 1px solid #8a898a;
+  width: 350px !important;
+} */
+@media (max-width: 990) {
+  .tabless input[type="text"],
+  .tabless input[type="email"],
+  .tabless input[type="number"] {
+    /* border: none; */
+    border-bottom: 1px solid #8a898a;
+    width: 400px;
+    margin-left: 50px;
+  }
+}
